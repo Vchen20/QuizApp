@@ -1,0 +1,75 @@
+[
+    {
+      "question": "How did George II of Great Britain die?",
+      "correctAnswer": "Died on a toilet from aortic dissection.",
+      "incorrectAnswer1": "Fainted after falling off his bed and hit his head.",
+      "incorrectAnswer2": "His throne literally collapsed under him.",
+      "incorrectAnswer3": "Had a stroke on the toilet."
+    },
+    {
+      "question": "How many presidents have died on July 4?",
+      "correctAnswer": "3",
+      "incorrectAnswer1": "2",
+      "incorrectAnswer2": "4",
+      "incorrectAnswer3": "5"
+    },
+    {
+      "question": "How did Rasputin die?",
+      "correctAnswer": "Drowned.",
+      "incorrectAnswer1": "Poisoned.",
+      "incorrectAnswer2": "Shot 3 times.",
+      "incorrectAnswer3": "Hypothermia."
+    },
+    {
+      "question": "How many assassination attempts were on Fidel Castro?",
+      "correctAnswer": "600",
+      "incorrectAnswer1": "500",
+      "incorrectAnswer2": "700",
+      "incorrectAnswer3": "800"
+    },
+    {
+      "question": "When did the Continental Congress vote for Independence?",
+      "correctAnswer": "July 2, 1776",
+      "incorrectAnswer1": "July 4, 1776",
+      "incorrectAnswer2": "July 1, 1776",
+      "incorrectAnswer3": "July 32, 1776"
+    },
+    {
+      "question": "Who was the first European to land in America?",
+      "correctAnswer": "Lief Erikson",
+      "incorrectAnswer1": "Santa Maria",
+      "incorrectAnswer2": "Christopher Columbus",
+      "incorrectAnswer3": "Nathan Hodson"
+    },
+    {
+      "question": "Who was the first person to sign the Declaration of Independence",
+      "correctAnswer": "John Hancock",
+      "incorrectAnswer1": "Josiah Bartlett",
+      "incorrectAnswer2": "Edward Rutledge",
+      "incorrectAnswer3": "Thomas Jefferson"
+    },
+    {
+      "question": "How many people signed the Constitution",
+      "correctAnswer": "39",
+      "incorrectAnswer1": "42",
+      "incorrectAnswer2": "34",
+      "incorrectAnswer3": "43"
+    },
+    {
+      "question": "Who's parrot was kicked out of his funeral for swearing too much?",
+      "correctAnswer": "Andrew Jackson",
+      "incorrectAnswer1": "Teddy Roosevelt",
+      "incorrectAnswer2": "Andrew Johnson",
+      "incorrectAnswer3": "Calvin Coolidge"
+    },
+    {
+      "question": "Who was not awarded Honorary Citizenship by Congress?",
+      "correctAnswer": "George Washington",
+      "incorrectAnswer1": "Marquis de Lafayette",
+      "incorrectAnswer2": "Winston Churchill",
+      "incorrectAnswer3": "William Penn"
+    }
+  ]
+
+
+
