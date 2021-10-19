@@ -58,9 +58,11 @@ class MainActivity : AppCompatActivity() {
         answerA.setOnClickListener() {
             if (correctNum == 0) {
                 numCorrect++
-                Toast.makeText(this, resources.getString(R.string.Correct), Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, resources.getString(R.string.Correct),
+                    Toast.LENGTH_SHORT).show()
             } else {
-                Toast.makeText(this, resources.getString(R.string.Incorrect), Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, resources.getString(R.string.Incorrect),
+                    Toast.LENGTH_SHORT).show()
             }
             if (guess == 9) {
                 gameOver()
@@ -78,9 +80,11 @@ class MainActivity : AppCompatActivity() {
         answerB.setOnClickListener() {
             if (correctNum == 1) {
                 numCorrect++
-                Toast.makeText(this, resources.getString(R.string.Correct), Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, resources.getString(R.string.Correct),
+                    Toast.LENGTH_SHORT).show()
             } else {
-                Toast.makeText(this, resources.getString(R.string.Incorrect), Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, resources.getString(R.string.Incorrect),
+                    Toast.LENGTH_SHORT).show()
             }
             if (guess == 9) {
                 gameOver()
@@ -98,9 +102,11 @@ class MainActivity : AppCompatActivity() {
         answerC.setOnClickListener() {
             if (correctNum == 2) {
                 numCorrect++
-                Toast.makeText(this, resources.getString(R.string.Correct), Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, resources.getString(R.string.Correct),
+                    Toast.LENGTH_SHORT).show()
             } else {
-                Toast.makeText(this, resources.getString(R.string.Incorrect), Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, resources.getString(R.string.Incorrect),
+                    Toast.LENGTH_SHORT).show()
             }
             if (guess == 9) {
                 gameOver()
@@ -118,9 +124,11 @@ class MainActivity : AppCompatActivity() {
         answerD.setOnClickListener() {
             if (correctNum == 3) {
                 numCorrect++
-                Toast.makeText(this, resources.getString(R.string.Correct), Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, resources.getString(R.string.Correct),
+                    Toast.LENGTH_SHORT).show()
             } else {
-                Toast.makeText(this, resources.getString(R.string.Incorrect), Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, resources.getString(R.string.Incorrect),
+                    Toast.LENGTH_SHORT).show()
             }
             if (guess == 9) {
                 gameOver()
