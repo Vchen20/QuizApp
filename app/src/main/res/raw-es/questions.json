@@ -1,0 +1,72 @@
+[
+  {
+    "question": "¿Cómo murió Jorge II de Gran Bretaña?",
+    "correctAnswer": "Murió en un inodoro por disección aórtica.",
+    "incorrectAnswer1": "Se desmayó después de caerse de la cama y se golpeó la cabeza.",
+    "incorrectAnswer2": "Su trono literalmente colapsó debajo de él.",
+    "incorrectAnswer3": "Tuve un derrame cerebral en el baño."
+  },
+  {
+    "question": "¿Cuántos presidentes han muerto el 4 de julio?",
+    "correctAnswer": "tres",
+    "incorrectAnswer1": "dos",
+    "incorrectAnswer2": "cuatro",
+    "incorrectAnswer3": "cinco"
+  },
+  {
+    "question": "¿Cómo murió Rasputín?",
+    "correctAnswer": "Ahogue.",
+    "incorrectAnswer1": "Le disparó tres veces.",
+    "incorrectAnswer2": "Envenenado.",
+    "incorrectAnswer3": "Hipotermia."
+  },
+  {
+    "question": "¿Cuántos intentos de asesinato tuvo Fidel Castro?",
+    "correctAnswer": "seiscientos",
+    "incorrectAnswer1": "quinientos",
+    "incorrectAnswer2": "setecientos",
+    "incorrectAnswer3": "ochocientos"
+  },
+  {
+    "question": "¿Cuándo votó el Congreso Continental por la independencia?",
+    "correctAnswer": "2 de julio de 1776",
+    "incorrectAnswer1": "1 de julio de 1776",
+    "incorrectAnswer2": "4 de julio de 1776",
+    "incorrectAnswer3": "31 de julio de 1776"
+  },
+  {
+    "question": "¿Quién fue el primer europeo en aterrizar en América?",
+    "correctAnswer": "Lief Erikson",
+    "incorrectAnswer1": "Santa Maria",
+    "incorrectAnswer2": "Christopher Columbus",
+    "incorrectAnswer3": "Nathan Hodson"
+  },
+  {
+    "question": "¿Quién fue la primera persona en firmar la Declaración de Independencia?",
+    "correctAnswer": "John Hancock",
+    "incorrectAnswer1": "Josiah Bartlett",
+    "incorrectAnswer2": "Edward Rutledge",
+    "incorrectAnswer3": "Thomas Jefferson"
+  },
+  {
+    "question": "¿Cuántas personas firmaron la Constitución?",
+    "correctAnswer": "treinta y nueve",
+    "incorrectAnswer1": "cuarenta y dos",
+    "incorrectAnswer2": "treinta y cuatro",
+    "incorrectAnswer3": "cuarenta y tres"
+  },
+  {
+    "question": "¿Quién tenía un loro vulgar?",
+    "correctAnswer": "Andrew Jackson",
+    "incorrectAnswer1": "Teddy Roosevelt",
+    "incorrectAnswer2": "Andrew Johnson",
+    "incorrectAnswer3": "Calvin Coolidge"
+  },
+  {
+    "question": "¿A quién no se le otorgó la Ciudadanía de Honor por parte del Congreso?",
+    "correctAnswer": "George Washington",
+    "incorrectAnswer1": "Marquis de Lafayette",
+    "incorrectAnswer2": "Winston Churchill",
+    "incorrectAnswer3": "William Penn"
+  }
+]

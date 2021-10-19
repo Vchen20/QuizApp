@@ -136,10 +136,11 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun gameOver() {
-        answers.visibility = View.VISIBLE
+        answers.visibility = View.INVISIBLE
         ask.text = "You got $numCorrect/10, pathetic"
         start.visibility = View.VISIBLE
         guess = 0
+        numCorrect = 0
     }
 
 
