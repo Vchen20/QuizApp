@@ -7,7 +7,7 @@ var correctNum = 0
 var quest = arrayListOf<String>()
 
 class Quiz {
-    constructor(questions: List<MainActivity.Question>)
+    constructor(questions: List<Question>)
     {
         quest = arrayListOf()
         quest.add("")
