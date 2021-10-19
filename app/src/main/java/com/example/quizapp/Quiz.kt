@@ -44,6 +44,14 @@ class Quiz {
             quest[3] = questions[guess].incorrectAnswer3
             quest[4] = questions[guess].correctAnswer
         }
+
+        gameOver(){
+
+        }
+    }
+
+    private fun gameOver(function: () -> Unit) {
+
     }
 
 

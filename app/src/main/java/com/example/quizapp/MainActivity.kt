@@ -21,6 +21,8 @@ class MainActivity : AppCompatActivity() {
     lateinit var ask: TextView
     lateinit var start: Button
     lateinit var answers: Group
+    val correct = "Correct"
+    val incorrect = "Incorrect"
     var numCorrect = 0
     var quiz = arrayListOf<String>().toString()
     val Tag = "MainActivity"
@@ -48,7 +50,6 @@ class MainActivity : AppCompatActivity() {
             answerC.text = quest[3]
             answerD.text = quest[4]
             answers.visibility = View.VISIBLE
-            start.text = "Restart"
             start.visibility = View.INVISIBLE
         }
 
@@ -57,9 +58,9 @@ class MainActivity : AppCompatActivity() {
         answerA.setOnClickListener() {
             if (correctNum == 0) {
                 numCorrect++
-                Toast.makeText(this, "Correct!", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, correct, Toast.LENGTH_SHORT).show()
             } else {
-                Toast.makeText(this, "Incorrect!", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, incorrect, Toast.LENGTH_SHORT).show()
             }
             if (guess == 9) {
                 gameOver()
@@ -77,9 +78,9 @@ class MainActivity : AppCompatActivity() {
         answerB.setOnClickListener() {
             if (correctNum == 1) {
                 numCorrect++
-                Toast.makeText(this, "Correct!", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, correct, Toast.LENGTH_SHORT).show()
             } else {
-                Toast.makeText(this, "Incorrect!", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, incorrect, Toast.LENGTH_SHORT).show()
             }
             if (guess == 9) {
                 gameOver()
@@ -97,9 +98,9 @@ class MainActivity : AppCompatActivity() {
         answerC.setOnClickListener() {
             if (correctNum == 2) {
                 numCorrect++
-                Toast.makeText(this, "Correct!", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, correct, Toast.LENGTH_SHORT).show()
             } else {
-                Toast.makeText(this, "Incorrect!", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, incorrect, Toast.LENGTH_SHORT).show()
             }
             if (guess == 9) {
                 gameOver()
@@ -117,9 +118,9 @@ class MainActivity : AppCompatActivity() {
         answerD.setOnClickListener() {
             if (correctNum == 3) {
                 numCorrect++
-                Toast.makeText(this, "Correct!", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, correct, Toast.LENGTH_SHORT).show()
             } else {
-                Toast.makeText(this, "Incorrect!", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, incorrect, Toast.LENGTH_SHORT).show()
             }
             if (guess == 9) {
                 gameOver()
@@ -137,7 +138,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun gameOver() {
         answers.visibility = View.INVISIBLE
-        ask.text = "You got $numCorrect/10, pathetic"
+        ask.text = "$numCorrect/10"
         start.visibility = View.VISIBLE
         guess = 0
         numCorrect = 0

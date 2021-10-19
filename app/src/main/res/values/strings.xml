@@ -1,7 +1,8 @@
 <resources>
     <string name="app_name">QuizApp</string>
-    <string name="Start">Comienzo</string>
-    <string name="Restart">Reiniciar</string>
-    <string name="Correct">Correcto</string>
-    <string name="Incorrect">Incorrecto</string>
+    <string name="Start">Start</string>
+    <string name="Restart">Restart</string>
+    <string name="Correct">Correct</string>
+    <string name="Incorrect">Incorrect</string>
+    <string name="Quiz">Quiz</string>
 </resources>
