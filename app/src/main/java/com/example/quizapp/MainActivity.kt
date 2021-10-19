@@ -21,8 +21,6 @@ class MainActivity : AppCompatActivity() {
     lateinit var ask: TextView
     lateinit var start: Button
     lateinit var answers: Group
-    val correct = "Correct"
-    val incorrect = "Incorrect"
     var numCorrect = 0
     var quiz = arrayListOf<String>().toString()
     val Tag = "MainActivity"
