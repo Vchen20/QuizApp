@@ -59,7 +59,7 @@ class MainActivity : AppCompatActivity() {
                 numCorrect++
                 Toast.makeText(this , "Correct!", Toast.LENGTH_SHORT).show()
             } else {
-                Toast.makeText(this , "Wrong!", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this , "Incorrect!", Toast.LENGTH_SHORT).show()
             }
             if (guess == 9) {
                 gameOver()
@@ -79,7 +79,7 @@ class MainActivity : AppCompatActivity() {
                 numCorrect++
                 Toast.makeText(this , "Correct!", Toast.LENGTH_SHORT).show()
             } else {
-                Toast.makeText(this , "Wrong!", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this , "Incorrect!", Toast.LENGTH_SHORT).show()
             }
             if (guess == 9) {
                 gameOver()
@@ -99,7 +99,7 @@ class MainActivity : AppCompatActivity() {
                 numCorrect++
                 Toast.makeText(this , "Correct!", Toast.LENGTH_SHORT).show()
             } else {
-                Toast.makeText(this , "Wrong!", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this , "Incorrect!", Toast.LENGTH_SHORT).show()
             }
             if (guess == 9) {
                 gameOver()
@@ -119,7 +119,7 @@ class MainActivity : AppCompatActivity() {
                 numCorrect++
                 Toast.makeText(this , "Correct!", Toast.LENGTH_SHORT).show()
             } else {
-                Toast.makeText(this , "Wrong!", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this , "Incorrect!", Toast.LENGTH_SHORT).show()
             }
             if (guess == 9) {
                 gameOver()
